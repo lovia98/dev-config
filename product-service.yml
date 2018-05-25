@@ -1,18 +1,18 @@
 ---
 spring:
- profiles:dev
- 
+  profiles:dev
+  
 host:item-dev-api.myhost.com
 
 ---
 spring:
- profiles:stg
+  profiles:stg
  
 host:item-stg-api.myhost.com
 
 ---
 spring:
- profiles:prod
- 
+  profiles:prod
+  
 host:item-prod-api.myhost.com
 
