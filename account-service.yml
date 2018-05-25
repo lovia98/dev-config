@@ -1,1 +1,2 @@
-host: myhost
+host:
+  domain: account-service.domain
