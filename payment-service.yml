@@ -1,2 +1,18 @@
+
+---
+spring:
+ profiles: dev
+host: 
+  domain: account-dev-api.myhost.com
+
+---
+spring:
+  profiles: stg
 host:
-  domain: account-service.domain
+  domain: account-stg-api.myhost.com
+  
+---
+spring:
+  profiles: prod
+host:
+  domain: account-prod-api.myhost.com
